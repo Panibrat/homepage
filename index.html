@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Résumé</title>
     <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main>
         <article>
-            <div class="page" style="border-color: midnightblue;">
+            <div class="page resumeWrapper">
                 <div class="stackable grid">
                     <div class="row">
                         <div class="three wide center aligned column">
                             <div class="avatar-wrapper">
-                                <object class="avatar" data="./assets/img/photo-placeholder.png" role="img" aria-label="My profile picture"></object>
+                                <object id="avatar" class="avatar bluredAvatar customAvatar" data="./assets/img/photo-placeholder.png" role="img" aria-label="My profile picture"></object>
                             </div>
                         </div>
                         <div class="thirteen wide column">
@@ -306,5 +307,6 @@
             </div>
         </article>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
